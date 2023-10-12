@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        function f1(){
+            var a=document.getElementById('p1').value;
+            var b=document.getElementById('p2').value;
+            alert(a+b);
+        }
+    </script>
+    <input type="number" id="p1">
+    <input type="number" id="p2">
+    <input type="button" value="click me" onclick="f1()";>
+</body>
+</html>
